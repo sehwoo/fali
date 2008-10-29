@@ -1,0 +1,58 @@
+/*
+ * Typography
+ */
+
+html {
+	font-size: 16px;
+}
+body {
+	/*font-size: 0.75em;*/
+	font-size: 76%;
+	line-height: 1.5em;
+}
+h1 { 
+	font-size: 3em;
+	line-height: 1em;
+	margin-bottom: 0.5em;
+}
+h2 { 
+	font-size: 2em;
+	line-height: 0.75em;
+	margin-bottom: 0.75em;
+}
+h3 { 
+	font-size: 1.5em;
+	line-height: 1em;
+	margin-bottom: 1em;
+}
+h4 { 
+	font-size: 1.2em;
+	line-height: 1.25em;
+	margin-bottom: 1.25em;
+	height: 1.25em;
+}
+h5 { 
+	font-size: 1em;
+	font-weight: bold; 
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+}
+h6 { 
+	font-size: 1em;
+	letter-spacing: 0.09em;
+	line-height: 1.5em;
+	margin-bottom: 1.5em;
+	text-transform: uppercase;
+}
+ul, ol {
+	margin: 0.75em 0 0.75em 2em;
+}
+ul li {
+	list-style-type: square;
+}
+ol li {
+	list-style-type: decimal;
+}
+p {
+	margin-bottom: 1.5em;
+}
