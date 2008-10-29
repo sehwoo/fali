@@ -1,3 +1,6 @@
+/*
+ * Wrappers
+ */
 .wrap1, .wrap2, .wrap3, .wrap4, .wrap5, .wrap6,
 .wrap7, .wrap8, .wrap9,.wrap10,.wrap11,.wrap12 {
 	margin: 0 auto;
@@ -15,6 +18,10 @@
 .wrap10 { width: 800px; }
 .wrap11 { width: 880px; }
 .wrap12 { width: 960px; }
+
+/*
+ * Columns
+ */
 
 .width1, .width2, .width3, .width4, .width5, .width6,
 .width7, .width8, .width9, .wdith10,.width11,.width12 {
@@ -36,6 +43,10 @@
 .width11 { width: 860px; }
 .width12 { width: 940px; }
 
+/*
+ * Left padding
+ */
+
 .pre1  { padding-left:  80px; }
 .pre2  { padding-left: 160px; }
 .pre3  { padding-left: 240px; }
@@ -47,6 +58,10 @@
 .pre9  { padding-left: 720px; }
 .pre10 { padding-left: 800px; }
 .pre11 { padding-left: 880px; }
+
+/*
+ * Right padding
+ */
 
 .post1  { padding-right:  80px; }
 .post2  { padding-right: 160px; }
@@ -62,6 +77,10 @@
 
 .first { margin-left:  0 }
 .last  { margin-right: 0 }
+
+/*
+ * Clearfix
+ */
 
 .clearfix:after {
 	clear: both;
