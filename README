@@ -6,7 +6,8 @@ Wrappers
 
 There are 12 different wrappers. Each is centered, and
 there should be only one per page, though that isn't 
-necessary.
+necessary. This sets how wide the page is and how many
+columns the page can have.
 
 Columns
 -------
