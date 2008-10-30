@@ -1,6 +1,7 @@
 /*
  * Wrappers
  */
+
 .wrap1, .wrap2, .wrap3, .wrap4, .wrap5, .wrap6,
 .wrap7, .wrap8, .wrap9,.wrap10,.wrap11,.wrap12 {
 	margin: 0 auto;
@@ -24,7 +25,7 @@
  */
 
 .width1, .width2, .width3, .width4, .width5, .width6,
-.width7, .width8, .width9, .wdith10,.width11,.width12 {
+.width7, .width8, .width9, .width10,.width11,.width12 {
 	display: inline;
 	float: left;
 	margin: 0 10px;
