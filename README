@@ -18,3 +18,6 @@ How to Use This Framework
   `.width4`s, or two `.width2`s and a `.width3` and then
   a `.width7`. A wrapper of 11 columns can have something
   like `.width2` and `.width9`.
+
+Sharing
+  Licensed under a Modified MIT license.
