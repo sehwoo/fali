@@ -1,0 +1,28 @@
+body {
+	background: #fff;
+	color: #000;
+	font-size: 12pt;
+}
+
+a {
+	color: #000;
+	font-weight: bold;
+	text-decoration: underline;
+}
+
+a:link:after, a:visited:after {
+	content: " (" attr(href) ") ";
+	font-size: 90%;
+}
+a[href^="/"]:after {
+	content: " (http://www.example.com" attr(href) ") ";
+}
+
+
+.wrap1, .wrap2, .wrap3, .wrap4, .wrap5, .wrap6,
+.wrap7, .wrap8, .wrap9,.wrap10,.wrap11,.wrap12 {
+	float: none !important;
+	margin: 0 5%;
+	padding: 0;
+	width: auto;
+}
