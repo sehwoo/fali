@@ -1,19 +1,20 @@
+Credits
+  The idea mostly came from http://960.gs/. However,
+  there are twelve wrappers instead of just one, and
+  there is only the twelve column variation. It isn't
+  quite fluid width, but this does offer much more
+  flexibility.
+  
 How to Use This Framework
-=========================
+  Wrappers
+  There are 12 different wrappers. Each is centered, and
+  there should be only one per page, though that isn't 
+  necessary. This sets how wide the page is and how many
+  columns the page can have.
 
-Wrappers
---------
-
-There are 12 different wrappers. Each is centered, and
-there should be only one per page, though that isn't 
-necessary. This sets how wide the page is and how many
-columns the page can have.
-
-Columns
--------
-
-With a wrapper of 12 columns, you can have up to twelve
-`width`s. For example, a site can have three 
-`.width4`s, or two `.width2`s and a `.width3` and then
-a `.width7`. A wrapper of 11 columns can have something
-like `.width2` and `.width9`.
+  Columns
+  With a wrapper of 12 columns, you can have up to twelve
+  `width`s. For example, a site can have three 
+  `.width4`s, or two `.width2`s and a `.width3` and then
+  a `.width7`. A wrapper of 11 columns can have something
+  like `.width2` and `.width9`.
