@@ -36,4 +36,8 @@ h6 {
 	font-variant: small-caps;
 }
 
+ol, ul { margin: 0.75em 0 0.75em 2em; }
+ol { list-style: decimal outside; }
+ul { list-style: disc outside; }
+
 p { margin-bottom: 1.5em; }
