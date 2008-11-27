@@ -80,21 +80,19 @@
 .last  { margin-right: 0 }
 
 /*
- * Clearfix
+ * Clear Fix
  */
 
 .clearfix:after {
 	clear: both;
-	content: '.';
+	content: ".";
 	display: block;
-	visibility: hidden;
+	font-size: 0;
 	height: 0;
+	visibility: hidden;
 }
-
 .clearfix { display: inline-block; }
-
-* html .clearfix { height: 1%; }
-
-.clearfix { display: block; }
- 
-.clear { clear:both; }
+* html .clearfix {
+	height: 1%;
+	display: block;
+}

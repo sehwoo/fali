@@ -1,4 +1,12 @@
-.nav li {
+.horiz li {
 	display: inline;
 	list-style-type: none;
+}
+
+#footer {
+	padding-top: 1em;
+}
+
+.grid {
+	background: url(grid.png);
 }
