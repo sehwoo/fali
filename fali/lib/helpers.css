@@ -1,4 +1,4 @@
-.horiz li {
-	display: inline;
-	list-style-type: none;
-}
+.horiz { margin-left: 0; list-style: none; }
+.horiz li { display: inline; }
+.horiz li + li { padding-left: 2em; }
+
