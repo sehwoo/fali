@@ -1,6 +1,6 @@
 html { font-size: 16px; }
 body {
-	font: normal 75% sans;
+	font: normal 75% sans-serif;
 	line-height: 1.5em;
 }
 
@@ -36,8 +36,15 @@ h6 {
 	font-variant: small-caps;
 }
 
+p { margin-bottom: 1.5em; }
+blockquote { margin: 1.5em 0 1.5em 2em; }
+
 ol, ul { margin: 1.5em 0 1.5em 2em; }
 ol { list-style: decimal outside; }
 ul { list-style: disc outside; }
 
-p { margin-bottom: 1.5em; }
+strong { font-weight: bold; }
+em { font-weight: italic; }
+del { text-decoration: line-through; }
+
+pre, code, tt { font-family: monospace; }
