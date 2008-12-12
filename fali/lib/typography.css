@@ -1,50 +1,36 @@
 html { font-size: 16px; }
-body {
-	font: normal 75% sans-serif;
-	line-height: 1.5em;
-}
+body { font: normal 75% sans-serif; line-height: 1.5em; }
 
-h1, h2, h3, h4, h5, h6 {
-	font-weight: normal;
-	line-height: 1em;
-}
-h1 {
-	font-size: 4em;
-	margin: 0.25em 0;
-}
-h2 {
-	font-size: 3em;
-	margin: 0.5em 0;
-}
-h3 {
-	font-size: 2.5em;
-	margin: 0.7em 0;
-}
-h4 {
-	font-size: 2em;
-	line-height: 0.75em;
-	margin: 0.75em 0;
-}
-h5 {
-	font-size: 1.5em;
-	margin: 1em 0;
-}
-h6 {
-	font-size: 1em;
-	line-height: 1.5em;
-	margin: 1.5em 0;
-	font-variant: small-caps;
-}
+/* Headings */
+h1, h2, h3, h4, h5, h6 { font-weight: normal; line-height: 1em; }
+h1 { font-size: 4em; margin: 0.25em 0; }
+h2 { font-size: 3em; margin: 0.5em 0; }
+h3 { font-size: 2.5em; margin: 0.7em 0; }
+h4 { font-size: 2em; line-height: 0.75em; margin: 0.75em 0; }
+h5 { font-size: 1.5em; margin: 1em 0; }
+h6 { font-size: 1em; line-height: 1.5em; margin: 1.5em 0;
+     font-variant: small-caps; }
 
+/* Top paddings.. maybe belongs in grid.css
+ * Useful to align divs with the headings */
+.down1 { padding-top: 1.5em; }
+.down2 { padding-top: 3em; }
+.down3 { padding-top: 4.5em; }
+.down4 { padding-top: 6em; }
+
+/* Text elements */
 p { margin-bottom: 1.5em; }
-blockquote { margin: 1.5em 0 1.5em 2em; }
-
-ol, ul { margin: 1.5em 0 1.5em 2em; }
-ol { list-style: decimal outside; }
-ul { list-style: disc outside; }
+blockquote, pre { margin: 1.5em 0 1.5em 2em; }
 
 strong { font-weight: bold; }
 em { font-weight: italic; }
 del { text-decoration: line-through; }
 
 pre, code, tt { font-family: monospace; }
+
+/* Lists */
+ol, ul { margin: 1.5em 0 1.5em 2em; }
+ol ul, ul ol { margin: 0 0 0 2em; }
+ol { list-style: decimal outside; }
+ul { list-style: disc outside; }
+
