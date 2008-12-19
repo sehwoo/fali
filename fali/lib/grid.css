@@ -1,98 +1,71 @@
-/*
- * Wrappers
- */
+/* FALI
+   Inspired by http://24ways.org/2008/making-modular-layout-systems,
+   Blueprint, 960.gs */
 
-.wrap1, .wrap2, .wrap3, .wrap4, .wrap5, .wrap6,
-.wrap7, .wrap8, .wrap9,.wrap10,.wrap11,.wrap12 {
-	margin: 0 auto;
-}
+/* COLUMNS */
+.one   { width:  100px; }
+.two   { width:  210px; }
+.three { width:  320px; }
+.four  { width:  430px; }
+.five  { width:  540px; }
+.six   { width:  650px; }
+.seven { width:  760px; }
+.eight { width:  870px; }
+.nine  { width:  980px; }
+.ten   { width: 1090px; }
 
-.wrap1  { width:  80px; }
-.wrap2  { width: 160px; }
-.wrap3  { width: 240px; }
-.wrap4  { width: 320px; }
-.wrap5  { width: 400px; }
-.wrap6  { width: 480px; }
-.wrap7  { width: 560px; }
-.wrap8  { width: 640px; }
-.wrap9  { width: 720px; }
-.wrap10 { width: 800px; }
-.wrap11 { width: 880px; }
-.wrap12 { width: 960px; }
+.one, .two,   .three, .four, .five,
+.six, .seven, .eight, .nine, .ten
+{ padding: 0 5px; }
 
-/*
- * Columns
- */
+.wrapper { padding: 0; }
 
-.width1, .width2, .width3, .width4, .width5, .width6,
-.width7, .width8, .width9, .width10,.width11,.width12 {
-	display: inline;
-	float: left;
-	margin: 0 10px;
-}
+/* FLOATS  and CLEARS */
+.left     { float:  left; }
+.right    { float: right; }
+.leftest,
+.first    { float:  left; clear: left;  padding-left:  0; }
+.rightest,
+.last     { float: right; clear: right; padding-right: 0; }
+.clear    { clear: both; }
 
-.width1  { width:  60px; }
-.width2  { width: 140px; }
-.width3  { width: 220px; }
-.width4  { width: 300px; }
-.width5  { width: 380px; }
-.width6  { width: 460px; }
-.width7  { width: 540px; }
-.width8  { width: 620px; }
-.width9  { width: 700px; }
-.width10 { width: 780px; }
-.width11 { width: 860px; }
-.width12 { width: 940px; }
+/* PUSH LEFT */
+.lone   { margin-left:  110px; }
+.ltwo   { margin-left:  220px; }
+.lthree { margin-left:  330px; }
+.lfour  { margin-left:  440px; }
+.lfive  { margin-left:  550px; }
+.lsix   { margin-left:  660px; }
+.lseven { margin-left:  770px; }
+.leight { margin-left:  880px; }
+.lnine  { margin-left:  990px; }
+.lten   { margin-left: 1100px; }
 
-/*
- * Left padding
- */
+/* PUSH RIGHT */
+.rone   { margin-right:  110px; }
+.rtwo   { margin-right:  220px; }
+.rthree { margin-right:  330px; }
+.rfour  { margin-right:  440px; }
+.rfive  { margin-right:  550px; }
+.rsix   { margin-right:  660px; }
+.rseven { margin-right:  770px; }
+.reight { margin-right:  880px; }
+.rnine  { margin-right:  990px; }
+.rten   { margin-right: 1100px; }
 
-.pre1  { padding-left:  80px; }
-.pre2  { padding-left: 160px; }
-.pre3  { padding-left: 240px; }
-.pre4  { padding-left: 320px; }
-.pre5  { padding-left: 400px; }
-.pre6  { padding-left: 480px; }
-.pre7  { padding-left: 560px; }
-.pre8  { padding-left: 640px; }
-.pre9  { padding-left: 720px; }
-.pre10 { padding-left: 800px; }
-.pre11 { padding-left: 880px; }
-
-/*
- * Right padding
- */
-
-.post1  { padding-right:  80px; }
-.post2  { padding-right: 160px; }
-.post3  { padding-right: 240px; }
-.post4  { padding-right: 320px; }
-.post5  { padding-right: 400px; }
-.post6  { padding-right: 480px; }
-.post7  { padding-right: 560px; }
-.post8  { padding-right: 640px; }
-.post9  { padding-right: 720px; }
-.post10 { padding-right: 800px; }
-.post11 { padding-right: 880px; }
-
-.first { margin-left:  0 }
-.last  { margin-right: 0 }
-
-/*
- * Clear Fix
- */
-
+/* CLEARFIX
+   Stolen off perishablepress.com. */
 .clearfix:after {
-	clear: both;
-	content: ".";
+	visibility: hidden;
 	display: block;
 	font-size: 0;
+	content: " ";
+	clear: both;
 	height: 0;
-	visibility: hidden;
 }
 .clearfix { display: inline-block; }
-* html .clearfix {
-	height: 1%;
-	display: block;
-}
+
+/* start commented backslash hack \*/
+* html .clearfix { height: 1%; }
+.clearfix { display: block; }
+/* stop commented backslash hack */
